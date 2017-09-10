@@ -12,7 +12,7 @@ public class Controller {
     private HowToActivity ui;
     private Instruction[] instructions = new Instruction[3];
     private int[] images= new int[3];
-    private int index = 0;
+    private int index = 2;
 
     public Controller(HowToActivity ui){
         this.ui=ui;
